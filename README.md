@@ -1,1 +1,1 @@
-Página de login do Calc TRI, um sistema de "cálculo de Teoria de Resposta ao Item".
+Página de login do Calc TRI, um sistema que calcula a "Teoria de Resposta ao Item".
