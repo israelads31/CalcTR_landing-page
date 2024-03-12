@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CalcTRI - A sua calculadora de Teoria de Resposta ao Item!">
+    <link rel="shortcut icon" href="./Assets/favicon/favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="https://use.typekit.net/vki3ese.css">
+    <link rel="stylesheet" type="text/css" href="Styles/login.css" />
+    <!-- SCRIPT LINKS -->
+    <script defer type="module" src="Scripts/login.js"></script>
+    <title>CalcTRI</title>
+  </head>
+  <body>
+    <main>
+        <div class="wrapper">
+            <form action="/auth/login" method="POST" id="loginForm">
+                <div class="initial-title">
+                  <i class='bx bx-bar-chart-alt-2'></i>
+                  <h1>CalcTRI - Login</h1>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuário" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" name="senha" id="senha" placeholder="Senha" required>
+                    <button id="toggleSenha"><i class='bx bxs-show'></i></button>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+
+                <div class="remember-forgot"
+                >
+                <label><input type="checkbox" name="" id="lembrarUsuario"> Lembrar</input></label>
+                <a href="register.html">Esqueceu a senha?</a>
+                </div>
+                
+                <button type="submit" class="btn">Entrar</button>
+
+                <div class="register-link">
+                    <p>Não possui uma conta?<a href="register.html"> Registrar</a></p>
+                </div>
+            </form>
+        </div>
+    </main>
+  </body>
+</html>

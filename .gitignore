@@ -1,0 +1,21 @@
+# Enviroments
+.env
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Build/Output
+/dist
+/build
+
+# Cache npm
+.npm
+
+# IDE
+.vscode/
+
+# System
+Thumbs.db
